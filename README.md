@@ -16,10 +16,10 @@ It might be baffling to some people why an otherwised experienced Python or SQL 
 ## API SERVICES
 Application Program Interfaces are ab excellent method for sharing and retrieving data. However, one notices a problem in that lare datasets work best when stored in relational databases; while API services typically tend to be designed with Python in mind. So how can an SQL database effectively interface with a Python=based query?
 
-One obvious answer is an ORM, which allows a Python API to query information from a database probiding certain conditions are met. 
+One obvious answer is an ORM, which allows a Python API to query information from a database providing certain conditions are met. 
 
 ## DATA PRODUCTS
-For companies like Google, direct access to consumer data is a major product offered to customers. At the same time, web-based services have to pair back=end databases ewith front-end consumer interfaces. Since Javascript is the common programming language for front-end interfaces, another kind of ORM would be required to access a relational database. This, in a nutshell is why ORMs are important. 
+For companies like Google, direct access to consumer data is a major product offered to customers. At the same time, web-based services have to pair back-end databases ewith front-end consumer interfaces. Since Javascript is the common programming language for front-end interfaces, another kind of ORM would be required to access a relational database. This, in a nutshell is why ORMs are important. 
 
 ## HAWAII WEATHER ANALYSIS
 For the Python portion of this exercise, asqlite file joins two tables, one for measurements, and another for stations. In order to demonstrate how an ORM query would work, an analysis using SQLAlchemy is conducted to retrieve data with appropriate filters, store them in a pandas dataframe, perform desired analyses, and visualize the outputs. Basically, SQL Alchemy does most of the work of Data Preparation and Aggregation; while Python works with aalysis and visualization; as might be asked of a web application.  
